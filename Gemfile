@@ -2,11 +2,12 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass', '2.0.4'
-
+gem 'hirb'
 
 group :development do
   gem 'rspec-rails', '2.11.0'
   gem 'sqlite3'
+  gem 'guard-rspec', '1.2.1'
 end
 
 group :production do
